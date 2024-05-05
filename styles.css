@@ -2,7 +2,7 @@ h1 {
   color: #2470b2;
 }
 body {
-  background-color: rgb(210, 196, 88);
+  background-color: rgb(15, 75, 0);
 }
 
 /* Selector universal */
@@ -20,5 +20,9 @@ body {
 }
 /* selector clase .  */
 .pfondo {
-  background-color: blue;
+  background-color: rgb(92, 174, 78);
+}
+.Comentario {
+  color: #060300;
+  background-color: coral;
 }
