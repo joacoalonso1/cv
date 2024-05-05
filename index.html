@@ -1,91 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Curriculum</title>
-</head>
-<body>
-   </u><h1> <u>Curriculum Vitae:</u></h1>
+    <style>
+      /*
+        selector {
+            propiedad: valor;
+            propiedad: valor;
+            propiedad: valor;
+            propiedad: valor;
+        }
+        */
+    </style>
+  </head>
+  <body>
+    <h1><u>Curriculum Vitae:</u></h1>
     <div>
-        <img src="./img/foto cv.jpg" alt="Foto de curriculum">
-        <fieldset>
+      <img src="./img/foto cv.jpg" alt="Foto de curriculum" />
+      <fieldset>
         <ul>
-            
-            <li><b>Nombre y Apellido:</b>Joaquin Alonso</li>
-            <li><b>Edad:</b>22 años</li>
-            <li><b>Email:</b>joacoalonsocp2001@gmail.com</li>
-            <li><b>Telefono:</b>1156528755</li>
-            <li>
-                <b>Linkedin:</b>
-                <a href="https://www.linkedin.com/in/joaquin-alonso-137831273/?trk=opento_sprofile_topcard/html" target="_blank">Linkedin</a></li>
-                <li>
-                    <article>
-                    <b><u>Carta de presentacion:</u></b>
-                    <p>Me encuentro estudiando la carrera de Ingenieria Mecanica en la UTN. Actualmente trabajo en The Clorox Company como pasante en la parte de Packaging. Me gusta mucho aprender tanto cosas especifica de mi carrera como tambien de otras. Con muchas ganas de desarrolarme en lo que es la programcion web. </p>
-                </article>
-                </li>
+          <li><b>Nombre y Apellido:</b>Joaquin Alonso</li>
+          <li><b>Edad:</b>22 años</li>
+          <li><b>Email:</b>joacoalonsocp2001@gmail.com</li>
+          <li><b>Telefono:</b>1156528755</li>
+          <li>
+            <b>Linkedin:</b>
+            <a
+              href="https://www.linkedin.com/in/joaquin-alonso-137831273/?trk=opento_sprofile_topcard/html"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <article>
+              <b><u>Carta de presentacion:</u></b>
+              <p>
+                Me encuentro estudiando la carrera de Ingenieria Mecanica en la
+                UTN. Actualmente trabajo en The Clorox Company como pasante en
+                la parte de Packaging. Me gusta mucho aprender tanto cosas
+                especifica de mi carrera como tambien de otras. Con muchas ganas
+                de desarrolarme en lo que es la programcion web.
+              </p>
+            </article>
+          </li>
         </ul>
-    </fieldset>
+      </fieldset>
     </div>
     <h2><u>Contacto:</u></h2>
     <form>
-        <fieldset>
+      <fieldset>
         <div>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" placeholder="Juan">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" placeholder="Juan" />
         </div>
         <div>
-            <label for="Apellido">Apellido:</label>
-            <input type="text" id="Apellido" placeholder="Sanchez">
+          <label for="Apellido">Apellido:</label>
+          <input type="text" id="Apellido" placeholder="Sanchez" />
         </div>
         <div>
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" min="1" max="99" placeholder="23">
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" min="1" max="99" placeholder="23" />
         </div>
         <div>
-            <label for="email">Email:</label>
-            <input type="email" placeholder="email@gmail.com" id="email">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="email@gmail.com" id="email" />
         </div>
         <div>
-            <label for="phone">Telefono:</label>
-            <input type="tel" id="phone" placeholder="1154234544">
+          <label for="phone">Telefono:</label>
+          <input type="tel" id="phone" placeholder="1154234544" />
         </div>
         <div>
-            <input type="checkbox" id="ch" required>
-            <label for="checkbox">Acepto terminos y condiciones</label>
+          <input type="checkbox" id="ch" required />
+          <label for="checkbox">Acepto terminos y condiciones</label>
         </div>
         <div>
-        <p>Tipo de documento</p>
-            <input type="radio" id="DNI" name="documento">
-            <label for="DNI">DNI</label>
+          <p>Tipo de documento</p>
+          <input type="radio" id="DNI" name="documento" />
+          <label for="DNI">DNI</label>
         </div>
         <div>
-            <input type="radio" id="pasaporte" name="documento">
-            <label for="pasaporte">Pasaporte</label>
+          <input type="radio" id="pasaporte" name="documento" />
+          <label for="pasaporte">Pasaporte</label>
         </div>
         <div>
-            <input type="radio" id="Registro" name="documento">
-            <label for="Registro">Registro</label>
+          <input type="radio" id="Registro" name="documento" />
+          <label for="Registro">Registro</label>
         </div>
-        <br>
+        <br />
         <div>
-            <label for="sexo">Sexo:</label>
-            <select name="sexo" id="sexo">
-             <option value="Masculino">Masculino</option>
-             <option value="Femenino">Femenino</option>
-            </select>
+          <label for="sexo">Sexo:</label>
+          <select name="sexo" id="sexo">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+          </select>
         </div>
         <div>
-            <label for="mensaje">Comentario:</label>
-            <br>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Comentarios"></textarea>
+          <label for="mensaje">Comentario:</label>
+          <br />
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            placeholder="Comentarios"
+          ></textarea>
         </div>
-        <br>
-        <input type="submit" value="Enviar">
-        </fieldset>
-
+        <br />
+        <input type="submit" value="Enviar" />
+      </fieldset>
     </form>
-    
-</body>
+  </body>
 </html>
