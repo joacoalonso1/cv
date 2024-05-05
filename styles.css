@@ -13,12 +13,12 @@ body {
   box-sizing: border-box; */
 }
 
-/* Selctor de id# */
+/* Selctor de id# (en html se usa id)*/
 #titulo {
   color: blue;
   background-color: blueviolet;
 }
-/* selector clase .  */
+/* selector clase . (en html se agg la class) */
 .pfondo {
   background-color: rgb(92, 174, 78);
 }
@@ -26,3 +26,5 @@ body {
   color: #060300;
   background-color: coral;
 }
+
+/* Slector descendiente */
