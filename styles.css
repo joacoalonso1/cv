@@ -1,0 +1,24 @@
+h1 {
+  color: #2470b2;
+}
+body {
+  background-color: rgb(210, 196, 88);
+}
+
+/* Selector universal */
+* {
+  background-color: aqua;
+  /* padding: 0cap;
+  margin: auto;
+  box-sizing: border-box; */
+}
+
+/* Selctor de id# */
+#titulo {
+  color: blue;
+  background-color: blueviolet;
+}
+/* selector clase .  */
+.pfondo {
+  background-color: blue;
+}
